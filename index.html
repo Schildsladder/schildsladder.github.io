@@ -7,9 +7,14 @@
 <meta name="what is this?" content="Personal site to share my works and thought"  />
 <meta name="author" content="Gesit Tali Singgih"  />
 
-<!---->
-<script src="scripts/animate.js"></script>
+<link rel="shortcut icon" type="image/icon" href="images/site_icon.ico" />
+<link rel="icon" type="image/icon" href="images/site_icon.ico" />
 
+<link rel="stylesheet" href="css/main.css">
+
+
+
+<!-- <script src="scripts/animate.js"></script>
 <script src="scripts/Utils.js"></script>
 <script src="scripts/Colours.js"></script>
 <script src="scripts/GraphicsUtils.js"></script>
@@ -17,23 +22,35 @@
 <script src="scripts/Gon3D.js"></script>
 <script src="scripts/SphericalTriangle.js"></script>
 <script src="scripts/Polyhedron.js"></script>
-<script src="scripts/Platonic.js"></script>
-
+<script src="scripts/Platonic.js"></script> -->
+  
 
 </head>
 
 
 <body>
 
-<canvas width="360" height="360" id="animate" onclick="animationControls();"><img src="images/Platonic.gif" width="240" height="240" class="noBorder noMargins noVMargins" alt="Platoniccc" /></canvas>
+
+<!-- <canvas width="360" height="360" id="animate" onclick="animationControls();"><img src="images/Platonic.gif" width="240" height="240" class="noBorder noMargins noVMargins" alt="Platoniccc" /></canvas> -->
+<!-- <canvas style="margin-left:500px; box-align=center;"" width="360" height="360" id="animate" onclick="animationControls();"></canvas> -->
+<!-- <canvas style="align-content: center;"" width="360" height="360" id="animate" onclick="animationControls();"></canvas> -->
+
+
+    <canvas id="canvas" width="400" height="400" style="border:2px solid black">
+        <!-- image if canvas failed to  load in client -->
+        <img src="images/site_icon.ico" width="150" height="150" alt="A clock" />
+    </canvas> 
+    
+<script src="scripts/graph.js"></script>
+
+
 
 <h1> What's required to win Artificial Super Intelligence Race </h1>
+
 
 <p>What kind for computer system will win 
 This analysis assume the current neural network with backpropagation paradigm can lead to general intelligence, and the digital substrate will continue to be the forefront of neural network compute. 
  </p>
-
-
 
 
 
