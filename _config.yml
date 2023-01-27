@@ -32,7 +32,7 @@ description: >-                        # used by seo meta and the atom feed
     My relationship with atoms and the mind.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://schildsladder.github.io'
+url: ''
 
 github:
   username: schildsladder             # change to your github username
