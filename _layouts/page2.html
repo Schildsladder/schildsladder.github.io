@@ -25,6 +25,19 @@ layout: default
         {{ title }}
       </h1>
       <div class="post-content">
+
+
+
+
+        <canvas id="canvas" width="400" height="400">
+          <img src="assets\img\favicons\android-chrome-512x512.png" width="150" height="150" alt="A clock" />
+        </canvas> 
+        <script src="/assets/js/graph.js"></script>
+
+
+
+
+
         {{ _content }}
       </div>
     {% else %}
@@ -41,11 +54,12 @@ layout: default
       {% include update-list.html %}
       <!-- {% include trending-tags.html %} -->
 
-      <!-- <canvas id="canvas" width="400" height="400" style="border:2px solid black"> -->
+
+      <!-- <canvas id="canvas" width="400" height="400" style="border:2px solid black">
       <canvas id="canvas" width="400" height="400">
-        <img src="images/site_icon.ico" width="150" height="150" alt="A clock" />
+        <img src="assets\img\favicons\android-chrome-512x512.png" width="150" height="150" alt="A clock" />
       </canvas> 
-      <script src="/assets/js/graph.js"></script>
+      <script src="/assets/js/graph.js"></script> -->
 
 
 
