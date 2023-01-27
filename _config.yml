@@ -1,3 +1,9 @@
+# bundle exec jekyll s
+# http://localhost:4000
+# mandelbrot = https://mandel.gart.nz/?Re=0.2682574168&Im=0.0036270135&iters=1149&zoom=41670905527&colourmap=13&maprotation=0&axes=0&smooth=0
+
+
+
 # The Site Configuration
 
 # Import the theme
@@ -79,10 +85,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn: #'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: 'assets\img\favicons\mstile-150x150.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
