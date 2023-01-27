@@ -11,10 +11,15 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
+  works: My Works
+  # home2: Home2
   categories: Categories
   tags: Tags
   archives: Archives
   about: About
+  applet: Applet
+
+  
 
 # the text displayed in the search bar & search results
 search:

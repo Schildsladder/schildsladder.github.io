@@ -1,3 +1,9 @@
+# bundle exec jekyll s
+# http://localhost:4000
+# mandelbrot = https://mandel.gart.nz/?Re=0.2682574168&Im=0.0036270135&iters=1149&zoom=41670905527&colourmap=13&maprotation=0&axes=0&smooth=0
+
+
+
 # The Site Configuration
 
 # Import the theme
@@ -5,7 +11,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: ''
+baseurl: '/schildsladder.github.io'
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -14,36 +20,37 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Jakarta
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Maximum Entropy                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: It's All About the Journey   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  My relationship with atoms and the mind.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://schildsladder.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: schildsladder            # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: spaceman420692            # change to your twitter username
 
+# schildsladder.github.io
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: Gesit Tali Singgih
+  email: gesitsinggih2@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/spaceman420692      # change to your twitter homepage
+    - https://github.com/schildsladder       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -78,10 +85,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: #'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'assets/img/favicons/mstile-150x150.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -109,10 +116,10 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: true     # boolean, keep empty means false
+    enabled:      # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: development         # [development|production]
+    env:          # [development|production]
 
 pwa:
   enabled: true   # the option for PWA feature
