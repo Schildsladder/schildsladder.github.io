@@ -27,7 +27,7 @@ var hearty=[]
 
 
 function init(){
-    earth.src = "images/site_icon.ico";
+    // earth.src = "images/site_icon.ico";
     window.requestAnimationFrame(draw);
 }
 
