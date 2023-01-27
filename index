@@ -1,0 +1,69 @@
+
+<html>
+<head>
+<title>It's All About the Journey</title>
+
+<!--* focus on creating from scratch html and js-->
+
+<meta name="what is this?" content="Personal site to share my works and thought"  />
+<meta name="author" content="Gesit Tali Singgih"  />
+
+</head>
+
+
+
+<body>
+<h1> What's required to win Artificial Super Inteligence Race </h1>
+
+<p>What kind for computer system will win 
+This analysis assume the current neural network with backpropagation paradigm can lead to general intelligence, and the digital substrate will continue to be the forefront of neural network compute. 
+ </p>
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Greg Egan&#8217;s Home Page</title>
+<!-- *Define AsParent Back to home page -->
+<!-- *Define AsGrandparent Back to home page -->
+<meta name="description" content="Official web site of the science fiction writer Greg Egan" />
+<meta name="keywords" content="Greg Egan, science fiction" />
+<meta charset="UTF-8" />
+<link rel="alternate" type="application/rss+xml" href="feed.rss" title="RSS feed for Greg Egan's Home Page" />
+<!-- *Substitute Canonical -->
+<link rel="canonical" href="https://www.gregegan.net" />
+<!-- *EndSubstitute -->
+<!-- *Substitute SiteStyle -->
+<link rel="stylesheet" type="text/css" href="styles/SiteStyle.css" />
+
+<script src="scripts/animate.js"></script>
+<script src="scripts/Utils.js"></script>
+<script src="scripts/Colours.js"></script>
+<script src="scripts/GraphicsUtils.js"></script>
+<script src="scripts/GonND.js"></script>
+<script src="scripts/Gon3D.js"></script>
+<script src="scripts/SphericalTriangle.js"></script>
+<script src="scripts/Polyhedron.js"></script>
+<script src="scripts/Platonic.js"></script>
+</head>
+<body itemscope itemtype="http://schema.org/Person">
+<div class="main" data-nosnippet>
+
+<canvas width="360" height="360" id="animate" onclick="animationControls();"><img src="images/Platonic.gif" width="240" height="240" class="noBorder noMargins noVMargins" alt="Platonic" /></canvas>
+
+</body>
+</html>
